@@ -17,21 +17,17 @@ const ExperienceCard = ({ data }) => {
 			<Fade left duration={2000}>
 				<Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
+					className="card-lift--hover shadow mt-4 border-0 text-center rounded experience-card"
 				>
-					<CardBody className="">
+					<CardBody className=" ">
 						<img
 							src={data.companylogo}
 							style={{
-								objectFit: "cover",
-								left: 0,
-								right: 0,
-								top: "7rem",
 								marginLeft: "auto",
 								marginRight: "auto",
-								width: "8rem",
-								height: "8rem",
-								borderRadius: "50%",
+								height: "40px",
+								borderRadius: "12%",
+								padding: "5px",
 							}}
 							className="shadow mb-3"
 							alt={data.companylogo}

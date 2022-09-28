@@ -16041,39 +16041,39 @@ a.btn-icon-only {
 	box-shadow: none, 0 0 0 0 rgba(221, 75, 57, 0.5);
 }
 
-.btn-instagram {
+.btn-stackover-flow {
 	color: #fff;
-	background-color: #e4405f;
-	border-color: #e4405f;
+	background-color: hsl(27,90%,70%);
+	border-color: hsl(27,90%,83%);
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
-.btn-instagram:hover {
+.btn-stack-overflow:hover {
 	color: #fff;
-	background-color: #e4405f;
-	border-color: #e4405f;
+	background-color: hsl(27,90%,70%);
+	border-color: hsl(27,90%,83%);
 }
-.btn-instagram:focus,
-.btn-instagram.focus {
+.btn-stack-overflow:focus,
+.btn-stackover-flow.focus {
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08),
 		0 0 0 0 rgba(228, 64, 95, 0.5);
 }
-.btn-instagram.disabled,
-.btn-instagram:disabled {
+.btn-stackover-flow.disabled,
+.btn-stack-overflow:disabled {
 	color: #fff;
-	background-color: #e4405f;
-	border-color: #e4405f;
+	background-color: hsl(27,90%,70%);
+	border-color: hsl(27,90%,83%);
 }
-.btn-instagram:not(:disabled):not(.disabled):active,
-.btn-instagram:not(:disabled):not(.disabled).active,
-.show > .btn-instagram.dropdown-toggle {
+.btn-stack-overflow:not(:disabled):not(.disabled):active,
+.btn-stack-overflow:not(:disabled):not(.disabled).active,
+.show > .btn-stackover-flow.dropdown-toggle {
 	color: #fff;
-	background-color: #d31e40;
-	border-color: #e4405f;
+	background-color: hsl(27,90%,83%);
+	border-color: hsl(27,90%,70%);
 }
-.btn-instagram:not(:disabled):not(.disabled):active:focus,
-.btn-instagram:not(:disabled):not(.disabled).active:focus,
-.show > .btn-instagram.dropdown-toggle:focus {
-	box-shadow: none, 0 0 0 0 rgba(228, 64, 95, 0.5);
+.btn-stack-overflow:not(:disabled):not(.disabled):active:focus,
+.btn-stack-overflow:not(:disabled):not(.disabled).active:focus,
+.show > .btn-stackover-flow.dropdown-toggle:focus {
+	box-shadow: none, 0 0 0 0 rgba(247, 172, 110, 0.5);
 }
 
 .btn-pinterest {

@@ -9,7 +9,7 @@ const GreetingLottie = ({ animationPath }) => {
 	};
 
 	return (
-		<div onClick={() => null}>
+		<div onClick={() => null} className="profficiency-lottie">
 			<Lottie options={defaultOptions} />
 		</div>
 	);

@@ -97,18 +97,18 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
-								{socialLinks.instagram && (
+								{socialLinks["stack-overflow"] && (
 									<NavItem>
 										<NavLink
 											rel="noopener"
-											aria-label="Instagram"
+											aria-label="Stackoverflow"
 											className="nav-link-icon"
-											href={socialLinks.instagram}
+											href={socialLinks["stack-overflow"]}
 											target="_blank"
 										>
-											<i className="fa fa-instagram" />
+											<i className="fa fa-stack-overflow" />
 											<span className="nav-link-inner--text d-lg-none ml-2">
-												Instagram
+												Stackoverflow
 											</span>
 										</NavLink>
 									</NavItem>

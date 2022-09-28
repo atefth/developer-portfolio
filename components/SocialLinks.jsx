@@ -49,17 +49,17 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
-			{socialLinks.instagram && (
+			{socialLinks["stack-overflow"] && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
-					color="instagram"
-					href={socialLinks.instagram}
+					color="stackover-flow"
+					href={socialLinks["stack-overflow"]}
 					target="_blank"
 					rel="noopener"
-					aria-label="Instagram"
+					aria-label="Stackoverflow"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-instagram" />
+						<i className="fa fa-stack-overflow" />
 					</span>
 				</Button>
 			)}
